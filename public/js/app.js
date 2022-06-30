@@ -1943,8 +1943,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Home"
@@ -37722,8 +37720,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "p-5 bg-light" }, [
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "p-5" }, [
         _c("div", { staticClass: "container" }, [
           _c("h1", { staticClass: "display-3" }, [_vm._v("Boolpress")]),
           _vm._v(" "),
@@ -37732,17 +37730,6 @@ var staticRenderFns = [
           _c("hr", { staticClass: "my-2" }),
           _vm._v(" "),
           _c("p", [_vm._v("More info")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "lead" }, [
-            _c(
-              "a",
-              {
-                staticClass: "btn btn-lg",
-                attrs: { href: "Jumbo action link", role: "button" },
-              },
-              [_vm._v("Jumbo action name")]
-            ),
-          ]),
         ]),
       ]),
     ])
@@ -37913,6 +37900,7 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "navbarlight shadow-sm" },
     [
       _c("ul", { staticClass: "nav justify-content-center" }, [
         _c(

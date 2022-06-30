@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navbarlight shadow-sm">
     <ul class="nav justify-content-center">
       <li class="nav-item">
         <router-link class="navbar-brand" :to="{ name: 'home' }">Boolpress</router-link>
