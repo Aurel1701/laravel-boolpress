@@ -1,10 +1,16 @@
 <template>
   <div>
-    <nav class="nav justify-content-center">
-      <a class="nav-link active" href="#">home</a>
-      <a class="nav-link" href="#">about</a>
-      <a class="nav-link" href="#">posts</a>
-    </nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <router-link class="navbar-brand" :to="{ name: 'home' }">Boolpress</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="navbar-brand" :to="{ name: 'about' }">About</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="navbar-brand" :to="{ name: 'posts' }">Posts</router-link>
+      </li>
+    </ul>
     <router-view></router-view>
   </div>
 
