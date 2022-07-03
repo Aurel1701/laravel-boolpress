@@ -1912,6 +1912,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "About"
 });
@@ -37689,9 +37719,51 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("About")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "page" }, [
+      _c("div", { staticClass: "p-5 bg-dark text-white" }, [
+        _c("div", { staticClass: "p-5" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("h1", { staticClass: "display-3" }, [_vm._v("Jumbo heading")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead" }, [_vm._v("Jumbo helper text")]),
+            _vm._v(" "),
+            _c("hr", { staticClass: "my-2" }),
+            _vm._v(" "),
+            _c("p", [_vm._v("More info")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btn-lg",
+                  attrs: { href: "Jumbo action link", role: "button" },
+                },
+                [_vm._v("Jumbo action name")]
+              ),
+            ]),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "content" }, [
+            _c("p", [
+              _vm._v(
+                "\n                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut, modi totam expedita nulla\n                    nemo ullam dolorum eum non nostrum quam eos veritatis alias similique harum accusantium\n                    aspernatur\n                    consectetur inventore voluptates quaerat autem. Totam possimus fugiat veniam? Officia libero\n                    veniam\n                    expedita quam modi minus unde explicabo et earum quia nam eveniet quis labore consectetur dolor\n                    omnis perferendis possimus aspernatur provident, natus fugiat? Necessitatibus fugiat doloribus,\n                    nulla vitae eos earum maxime! Eos optio amet, quis excepturi modi consequatur itaque eaque illo\n                    maiores error numquam nemo repudiandae vel adipisci aperiam inventore impedit.\n                "
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 
@@ -53781,9 +53853,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/aurel96/Desktop/laravel-boolpress/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/aurel96/Desktop/laravel-boolpress/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/aurel96/Desktop/laravel-boolpress/resources/sass/admin.scss */"./resources/sass/admin.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/laravel/laravel-boolpress/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Applications/MAMP/htdocs/laravel/laravel-boolpress/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/laravel/laravel-boolpress/resources/sass/admin.scss */"./resources/sass/admin.scss");
 
 
 /***/ })
